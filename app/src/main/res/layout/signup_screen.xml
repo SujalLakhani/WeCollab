@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|center_horizontal"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".SignupScreen">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        app:srcCompat="@drawable/ic_zoomus_icon"
+        tools:ignore="VectorDrawableCompat" />
+
+    <EditText
+        android:id="@+id/Username"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/edit"
+        android:drawableStart="@drawable/custom_person"
+        android:drawablePadding="12dp"
+        android:drawableLeft="@drawable/custom_person"
+        android:elevation="3dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:padding="9dp" />
+
+    <EditText
+        android:id="@+id/PhoneNo"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/edit"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:drawableStart="@drawable/custom_phone"
+        android:drawablePadding="12dp"
+        android:drawableLeft="@drawable/custom_phone"
+        android:elevation="3dp"
+        android:inputType="phone"
+        android:padding="9dp" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/edit"
+        android:drawableStart="@drawable/custom_lock"
+        android:drawablePadding="12dp"
+        android:drawableLeft="@drawable/custom_lock"
+        android:elevation="3dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="9dp" />
+
+    <TextView
+        android:id="@+id/old"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="53dp"
+        android:layout_marginEnd="5dp"
+        android:gravity="right"
+        android:paddingTop="1dp"
+        android:paddingBottom="1dp"
+        android:text="Already have an account?"
+        android:layout_marginLeft="53dp"
+        android:layout_marginRight="5dp" />
+
+    <Button
+        android:id="@+id/SignUp"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_btn"
+        android:text="Sign up"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:visibility="gone"
+        android:outlineAmbientShadowColor="@color/blue"
+        />
+
+</LinearLayout>

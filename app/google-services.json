@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "721620899046",
+    "firebase_url": "https://wecollab-fbd96-default-rtdb.firebaseio.com",
+    "project_id": "wecollab-fbd96",
+    "storage_bucket": "wecollab-fbd96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721620899046:android:4c36ff8c392e03da469727",
+        "android_client_info": {
+          "package_name": "com.example.wecollab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721620899046-homdjiapkkphhm0idrpggq76p38eprqe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wecollab",
+            "certificate_hash": "ebcbd0d1fe59b41057f9d5eaa73be57167c9d8ea"
+          }
+        },
+        {
+          "client_id": "721620899046-2soccn62jhhat0d3gp1ppn4ifa2mtpst.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5n4vD7Ywyi4FdM8MV8vOQQdDLQFjRKoI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721620899046-2soccn62jhhat0d3gp1ppn4ifa2mtpst.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
